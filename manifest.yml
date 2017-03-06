@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: ésumé
+  host: testNodetest1234
+  disk_quota: 1024M
+  services:
+  - Mobile Client Access-x4
+  - Mobile Analytics-t2
+  - Mobile Analytics-72
